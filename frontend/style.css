@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 214, 205);
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container input {
+    width: 300px;
+    height: 30px;
+    font-size: 1.25rem;
+}
+
+.input-container button {
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    background-color: rgb(255, 157, 0);
+    border: 1px solid rgb(255, 55, 0);
+    color: #fff;
+    padding: 3px;
+}
+
+button:active {
+    color: rgb(255, 157, 0);
+    background: #fff;
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.todo {
+    width: 307px;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(147, 165, 240);
+}
+
+.actions button {
+    flex-wrap: wrap;
+    background-color: red;
+    border-color: darkred;
+    color: white;
+    margin-left: 10px;
+    height: 30px;
+    width: 75px;
+    font-size: 1.05rem;
+    border-radius: 10px;
+}
